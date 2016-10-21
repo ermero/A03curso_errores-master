@@ -1,0 +1,7 @@
+paco_loco:
+    resource: "@PacoLocoBundle/Resources/config/routing.yml"
+    prefix:   /paco
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

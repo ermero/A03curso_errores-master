@@ -1,0 +1,11 @@
+paco_loco_homepage:
+    path:     /
+    defaults: { _controller: PacoLocoBundle:Default:index }
+
+paco_loco_mensaje:
+    path:     /msg
+    defaults: { _controller: PacoLocoBundle:Default:msg}
+
+paco_loco_mensaje1:
+    path:     /msgTexto/{texto}
+    defaults: { _controller: PacoLocoBundle:Default:msgTexto,texto:'Paco esta loco'}
